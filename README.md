@@ -33,12 +33,12 @@ $ yarn start
 Pronto! O projeto estará rodando em seu ambiente local.  
 
  🛠 Tecnologias Utilizadas  
-- **React**  
-- **Node.js**  
-- **PostgreSQL**  
-- **CSS**  
-
-
+- JavaScript
+46.1%
+-CSS
+40.4%
+-HTML
+13.5%
 
  📝 Licença  
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo `LICENSE`.  
