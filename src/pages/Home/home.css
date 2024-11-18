@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a linha seguinte */
+  max-width: 100%;
+  padding: 20px;
+  background-color: #111;
+}
+
+.lista-filmes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a linha seguinte */
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.lista-filmes article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  min-width: 250px; /* Largura mínima para cada card */
+  max-width: 250px; /* Largura máxima para cada card */
+}
+
+.lista-filmes article:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.lista-filmes strong {
+  padding: 10px 0;
+  font-size: 18px;
+  color: #FFD700;
+  text-shadow: 1px 1px 4px rgba(255, 215, 0, 0.8);
+  text-align: center;
+}
+
+.lista-filmes img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.lista-filmes img:hover {
+  transform: scale(1.05);
+}
+
+.lista-filmes article a {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #8B0000;
+  text-align: center;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.lista-filmes article a:hover {
+  background-color: #A52A2A;
+}
+
+

@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* Centraliza o conteúdo */
+  width: 100%;
+  height: 60px;
+  background-color: brown;
+  padding: 0 20px;  /* Espaçamento lateral */
+  box-sizing: border-box;  /* Para garantir que o padding não afete a largura */
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 160px;  /* Espaço entre o logo e o botão de favoritos */
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #FFD700;  /* Cor quando o logo é hover */
+}
+
+.favoritos {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.favoritos:hover {
+  background-color: #FFD700;  /* Cor de fundo no hover */
+  color: #FFF;
+}
